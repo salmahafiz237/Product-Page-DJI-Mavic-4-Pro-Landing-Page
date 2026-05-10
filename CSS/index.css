@@ -4,6 +4,7 @@
     font-family: sans-serif;
     margin: 0;
     /* background-color: rgb(245, 158, 158); */
+    scroll-behavior:smooth;
 }
 
 body {
@@ -167,7 +168,7 @@ a {
     border-radius: 20px;
 }
 
-.sale {
+.sales {
     position: absolute;
     background-color: #8E51FF;
     color: white;
@@ -653,14 +654,12 @@ a {
     align-items: flex-start;
     margin-bottom: 35px;
 }
-
 .image-left {
     display: flex;
     gap: 15px;
     /* align-items: center; */
     align-items: flex-start;
 }
-
 .image-left img {
     width: 55px;
     height: 55px;
@@ -832,9 +831,9 @@ a {
     background: #8b5cf6;
     color: #fff;
     border: none;
-    padding: 8px 16px;
+    padding: 12px 16px;
     border-radius: 50px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -846,7 +845,7 @@ a {
     margin-top: 55px;
 }
 .button3 {
-    padding: 15px 40px;
+    padding: 18px 40px;
     background: white;
     color: #7F22FE;
     border: 2px solid #7F22FE;
@@ -865,3 +864,128 @@ a {
 /* //////////////////Section 3////////////////*/
 
 /* //////////////////Section 4////////////////*/
+.footer{
+    background-color: #101828;
+    color: white;
+    padding-block: 70px;
+}
+.top{
+    justify-content: flex-start;
+    /* gap: 110px; */
+    margin-bottom: 50px;
+}
+.DJI{
+    width: 23%;
+}
+.product{
+    margin-left: 8%;
+}
+.support{
+    margin-inline: 16%;
+}
+.DJI .d-flex {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.icon-footer {
+    width: 40px;
+    height: 40px;
+    background-color: #7F22FE;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-footer i{
+    font-size: 18px;
+    color: white;
+}
+.DJI span{
+    font-size: 24px;
+    font-weight: 700;
+}
+.DJI p {
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 26px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.social-icons span {
+    width: 40px;
+    height: 40px;
+    background-color: #1f2937;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.social-icons .facebook:hover {
+    background-color: #1877F2;
+}
+.social-icons .twitter:hover {
+    background-color: #1DA1F2;
+}
+.social-icons .instagram:hover {
+    background-color: #E4405F;
+}
+.social-icons .youtube:hover {
+    background-color: #FF0000;
+}
+.top h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.top ul {
+    list-style: none;
+    padding: 0;
+}
+.top ul li {
+    margin-bottom: 15px;
+    color: #9ca3af;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.top ul li:hover {
+    color: white;
+}
+.bottom {
+    border-top: 1px solid #1f2937;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bottom p {
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+.image-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-icon div {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.image-icon img {
+    height: 18px;
+    display: block;
+}
